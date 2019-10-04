@@ -1,0 +1,185 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+.luachon .right {
+    display: block;
+    padding-left: 16%;
+}
+
+ul li {margin-right: 20px;}
+
+.right ul li {
+    width: 80px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.quocgia {
+    height: 61px;
+    border-bottom: 1px solid;
+}
+
+html,body {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.introduce {
+    /* position: absolute; */
+    margin-top: 162px;
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+    border: 1px #e0d5d5 solid;
+    /* position: absolute; */
+    width: 100%;
+    bottom: 0px;
+    margin-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.quangcao {
+    position: relative;
+    /* line-height: 22px; */
+    margin-top: 50px;
+    width: 100%;
+}
+
+.luachon div:nth-child(1) {
+    margin-left: 77px;
+}
+
+.luachon .left {
+    width: 50%;
+    padding-right: 0;
+}
+
+.search .luachon div:nth-child(2) {
+    width: 40%;
+}
+
+.search .luachon div {
+    color: gray;
+    background: #f8f8f8;
+    height: 45px;
+    text-align: center;
+    width: 33%;
+    margin-right: 20px;
+    line-height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.luachon {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.introduce .luachon {
+    height: 50px;
+    padding-top: 0px;
+}
+
+.luachon ul li a {
+    color: #645d5d;
+}
+
+.loa {
+    position: absolute;
+    width: 30px;
+    right: 30px;
+    top: 8px;
+}
+
+.congcunhap {
+    position: absolute;
+    right: 70px;
+    top: 12px;
+}
+
+input[type="text"] {
+    top: 3px;
+    width: 70%;
+    position: absolute;
+    left: 30px;
+    height: 80%;
+    border: none;
+}
+
+i.fa.fa-search {color: gainsboro;position: absolute;left: 10px;top: 18px;}
+
+.timkiem {
+    width: 100%;
+    border: 2px solid gainsboro;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+}
+
+img.google {
+    /* width: 100%; */
+}
+
+.search img {
+    /* width: 42%; */
+}
+
+.quangcao img {
+    top: -15px;
+    width: 50px;
+    position: absolute;
+    left: 15px;
+}
+
+.loa img {
+    width: 100%;
+}
+
+.search {
+    text-align: center;
+    width: 40%;
+    /* background: red; */
+    margin: auto;
+    margin-top: 100px;
+}
+
+.search {}
+
+.menu a .dangnhap {
+    background: #4285f4;
+    color: white;
+    font-size: 14px;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu a {
+    /* float: right; */
+    /* display: block; */
+    /* width: 94px; */
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+}
+
+.menu {
+    padding-left: 75%;
+    display: flex;
+    /* float: right; */
+    width: 100%;
+}
