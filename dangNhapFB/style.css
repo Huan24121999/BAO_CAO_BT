@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.luachon input[type="radio"] {
+    margin-left: 15px;
+}
+
+.luachon input[type="radio"] {
+}
+
+.luachon {
+    display: flex;
+}
+
+button {
+    width: 30px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+li {
+    margin-right: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.ngonngu {
+    border-top: 1px solid #cbc2c2;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.khuyencao {
+    padding-top: 30px;
+    font-size: 12px;
+    width: 435px;
+}
+
+.gioitinh {
+    /* display: flex; */
+    margin-top: 30px;
+}
+
+.dangky .chu {color: black;font-size: 20px;opacity: 0.6;font-weight: 700;}
+
+.dangky .so1 {
+    display: inline-flex;
+}
+
+input[type="text"] {
+    display: block;
+    margin: 12px 0px;
+    height: 28px;
+    width: 424px;
+}
+
+.taikhoan input[type="text"] {
+    width: 200px;
+}
+
+.so1 input[type="text"] {
+    margin-right: 20px;
+    width: 200px;
+}
+
+.dangky {
+    width: 40%;
+}
+
+.dangky input {
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+button.dangky {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background: #206820;
+}
+
+.content {
+    display: flex;
+    margin-top: 50px;
+}
+
+.gioithieu {
+    padding-left: 10%;
+    width: 50%;
+    /* background: black; */
+}
+
+.gioithieu .chu {
+    width: 45%;
+    font-size: 20px;
+    /* background: red; */
+}
+
+button.dangNhap {
+    width: 82px;
+    font-size: 12px;
+    color: white;
+    background: #29487d;
+    height: 25px;
+    margin-top: 34px;
+    margin-left: 20px;
+    border: 1px solid;
+}
+
+.taikhoan .username {
+    padding-right: 20px;
+}
+
+.taikhoan {
+    width: 50%;
+    display: inherit;
+}
+
+.thanhtieude .logo {
+    width: 50%;
+    font-size: 50px;
+    overflow: hidden;
+    padding-left: 8%;
+}
+
+.thanhtieude {background: :#3578E5;background: :#3578E5;background: #29487d;color: white;display: flex;}
+:root{
+    maunen:#3578E5;
+}
